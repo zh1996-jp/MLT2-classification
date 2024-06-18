@@ -25,7 +25,7 @@ Then you will got some out files, and we need to find fixed pattern.
 below is the result of the aba.ali
 ![My Image](aba.png)
 Also you can find more details about the result in aba.out:
-![alt text](截屏2024-05-17%2011.13.02.png)
+![alt text](example.png)
 * The sequences have similar divergence
 * They all do not align to the last 245 bp of the consensus sequence
 
