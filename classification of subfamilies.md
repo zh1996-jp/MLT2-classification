@@ -10,7 +10,7 @@ In order to determine which sequences scores the highest against all possible co
 ```sh
 bestscore.pl scorenew
 ```
-below you can see seq749 is the best representative sequence.![alt text](seq749.png)
+below you can see seq749 is the best representative sequence.![alt text](images/seq749.png)
 
 then searched for the associated sequence in the aba.fa file and placed it in a file I named con.fa.
 ```sh
@@ -23,9 +23,9 @@ alignAndCallConsensus.pl -c con.fa -e aba.fa -ma 14 -int -html
 
 Then you will got some out files, and we need to find fixed pattern.
 below is the result of the aba.ali
-![My Image](aba.png)
+![My Image](images/aba.png)
 Also you can find more details about the result in aba.out:
-![alt text](example.png)
+![alt text](images/example.png)
 * The sequences have similar divergence
 * They all do not align to the last 245 bp of the consensus sequence
 
