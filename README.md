@@ -21,7 +21,7 @@ This repository contains the analysis of interspersed repeats in the human genom
 - The aligned sequences were inputted into [FastTree](https://www.microbesonline.org/fasttree/) to generate a maximum-likelihood tree.
 
 ## Evolutionary Relationship Analysis
-- [Lift-over](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1000000/) was employed to investigate genomic similarities across species, helping to understand evolutionary relationships and conservation of genetic elements.
+- [Lift-over](https://genome-store.ucsc.edu/) was employed to investigate genomic similarities across species, helping to understand evolutionary relationships and conservation of genetic elements.
 
 
 
