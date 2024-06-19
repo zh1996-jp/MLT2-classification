@@ -7,10 +7,10 @@ This repository contains the analysis of interspersed repeats in the human genom
 - The human genome (GRCh38/hg38) was used as the reference genome.
 
 ## Methods
-1. **Annotation of Repeats**: Repeats in the human genome were annotated by comparing the genome to consensus sequences using [LAST](https://last.cbrc.jp/).
-2. **Training**: The average rates of insertion, deletion, and substitutions between the genome and repeat consensus sequences were determined using [last-train](https://last.cbrc.jp/).
-3. **Alignments**: Alignments were found using [lastal](https://last.cbrc.jp/), and the output was processed with [last-postmask](https://last.cbrc.jp/) to remove simple-sequence alignments of dubious homology.
-4. **Identification of "Hybrid TEs"**: The tool [TE-reX](https://github.com/dfam-consortium/TE-reX) was used to identify and extract "hybrid TEs" from the genome.
+1. **Annotation of Repeats**: Repeats in the human genome were annotated by comparing the genome to consensus sequences using [LAST](https://gitlab.com/mcfrith/last).
+2. **Training**: The average rates of insertion, deletion, and substitutions between the genome and repeat consensus sequences were determined using [last-train](https://gitlab.com/mcfrith/last).
+3. **Alignments**: Alignments were found using [lastal](https://gitlab.com/mcfrith/last), and the output was processed with [last-postmask](https://gitlab.com/mcfrith/last) to remove simple-sequence alignments of dubious homology.
+4. **Identification of "Hybrid TEs"**: The tool [TE-reX](https://gitlab.com/mcfrith/te-rex) was used to identify and extract "hybrid TEs" from the genome.
 
 ## Classification of Subfamilies
 - Self-comparisons of targeted subfamily instances were performed using [rmblast.pl](https://www.repeatmasker.org/) in [RepeatModeler version 2.0.3](https://www.repeatmasker.org/).
