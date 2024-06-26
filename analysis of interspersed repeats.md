@@ -1,6 +1,6 @@
 # Analysis of interspersed repeats in the human genome
 
-First we can download consensus DNA sequences of human repeat elements from [Dfam][]:
+First we can download consensus DNA sequences of human repeat elements from [Dfam][] (details can be found from [TE-reX][]):
     dfam-fasta -c9606 -x'root;Interspersed_Repeat' > reps.fa
 
 Then annotate repeats in the human genome (GRCh38/hg38), by comparing the genome to these consensus sequences using [LAST][]. 
